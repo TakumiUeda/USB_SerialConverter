@@ -1,0 +1,347 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Mylib
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x09_Male J?
+U 1 1 5B22F1AF
+P 3850 3100
+F 0 "J?" H 3850 3600 50  0000 C CNN
+F 1 "TIA/EIA-232-Male" H 3850 2600 50  0000 C CNN
+F 2 "" H 3850 3100 50  0001 C CNN
+F 3 "" H 3850 3100 50  0001 C CNN
+	1    3850 3100
+	1    0    0    -1  
+$EndComp
+Text Notes 2850 4550 0    60   ~ 0
+Pin1 Data Carrier Detect(DCD)\nPin2 Recieved Data(RD)\nPin3 Transmit Data(TD)\nPin4 Data Terminal Ready(DTR)\nPin5 Signal Ground(SG)\nPin6 Data Set Ready(DSR)\nPin7 Request To Send(RTS)\nPin8 Clear To Send(CTS)\nPin9 Ring Indicator(RI)
+$Comp
+L GND #PWR?
+U 1 1 5B22F353
+P 4550 3950
+F 0 "#PWR?" H 4550 3700 50  0001 C CNN
+F 1 "GND" H 4550 3800 50  0000 C CNN
+F 2 "" H 4550 3950 50  0001 C CNN
+F 3 "" H 4550 3950 50  0001 C CNN
+	1    4550 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4050 2700
+NoConn ~ 4050 3000
+NoConn ~ 4050 3200
+NoConn ~ 4050 3500
+$Comp
+L C C?
+U 1 1 5B22F4AD
+P 7100 2900
+F 0 "C?" H 7125 3000 50  0000 L CNN
+F 1 "0.1uF" H 7125 2800 50  0000 L CNN
+F 2 "" H 7138 2750 50  0001 C CNN
+F 3 "" H 7100 2900 50  0001 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B22F4D4
+P 5100 2900
+F 0 "C?" H 5125 3000 50  0000 L CNN
+F 1 "0.1uF" H 5125 2800 50  0000 L CNN
+F 2 "" H 5138 2750 50  0001 C CNN
+F 3 "" H 5100 2900 50  0001 C CNN
+	1    5100 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B22F803
+P 7450 3750
+F 0 "C?" H 7475 3850 50  0000 L CNN
+F 1 "0.1uF" H 7475 3650 50  0000 L CNN
+F 2 "" H 7488 3600 50  0001 C CNN
+F 3 "" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5950 6000
+$Comp
+L C C?
+U 1 1 5B22F9C7
+P 7850 2900
+F 0 "C?" H 7875 3000 50  0000 L CNN
+F 1 "0.1uF" H 7875 2800 50  0000 L CNN
+F 2 "" H 7888 2750 50  0001 C CNN
+F 3 "" H 7850 2900 50  0001 C CNN
+	1    7850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B22FCA2
+P 7450 2900
+F 0 "C?" H 7475 3000 50  0000 L CNN
+F 1 "0.1uF" H 7475 2800 50  0000 L CNN
+F 2 "" H 7488 2750 50  0001 C CNN
+F 3 "" H 7450 2900 50  0001 C CNN
+	1    7450 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 4200 0    60   Input ~ 0
+R1OUT
+Text GLabel 8200 4300 0    60   Input ~ 0
+T1IN
+$Comp
+L VCC #PWR?
+U 1 1 5B23086E
+P 8350 3800
+F 0 "#PWR?" H 8350 3650 50  0001 C CNN
+F 1 "VCC" H 8350 3950 50  0000 C CNN
+F 2 "" H 8350 3800 50  0001 C CNN
+F 3 "" H 8350 3800 50  0001 C CNN
+	1    8350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06_Male J?
+U 1 1 5B230A0C
+P 8800 4300
+F 0 "J?" H 8800 4600 50  0000 C CNN
+F 1 "USB" H 8800 3900 50  0000 C CNN
+F 2 "" H 8800 4300 50  0001 C CNN
+F 3 "" H 8800 4300 50  0001 C CNN
+	1    8800 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B230BC2
+P 8450 4750
+F 0 "#PWR?" H 8450 4500 50  0001 C CNN
+F 1 "GND" H 8450 4600 50  0000 C CNN
+F 2 "" H 8450 4750 50  0001 C CNN
+F 3 "" H 8450 4750 50  0001 C CNN
+	1    8450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper JP?
+U 1 1 5B230CB0
+P 8150 5100
+F 0 "JP?" H 8150 5250 50  0000 C CNN
+F 1 "Reset" H 8150 5020 50  0000 C CNN
+F 2 "" H 8150 5100 50  0001 C CNN
+F 3 "" H 8150 5100 50  0001 C CNN
+	1    8150 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B230DB7
+P 8150 5550
+F 0 "#PWR?" H 8150 5300 50  0001 C CNN
+F 1 "GND" H 8150 5400 50  0000 C CNN
+F 2 "" H 8150 5550 50  0001 C CNN
+F 3 "" H 8150 5550 50  0001 C CNN
+	1    8150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX232 U?
+U 1 1 5B230F17
+P 6100 3650
+F 0 "U?" H 6000 4775 50  0000 R CNN
+F 1 "MAX232" H 6000 4700 50  0000 R CNN
+F 2 "" H 6150 2600 50  0001 L CNN
+F 3 "" H 6100 3750 50  0001 C CNN
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B231623
+P 7450 4050
+F 0 "#PWR?" H 7450 3800 50  0001 C CNN
+F 1 "GND" H 7450 3900 50  0000 C CNN
+F 2 "" H 7450 4050 50  0001 C CNN
+F 3 "" H 7450 4050 50  0001 C CNN
+	1    7450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B2316E3
+P 6100 2250
+F 0 "#PWR?" H 6100 2100 50  0001 C CNN
+F 1 "VCC" H 6100 2400 50  0000 C CNN
+F 2 "" H 6100 2250 50  0001 C CNN
+F 3 "" H 6100 2250 50  0001 C CNN
+	1    6100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B231983
+P 7850 3150
+F 0 "#PWR?" H 7850 2900 50  0001 C CNN
+F 1 "GND" H 7850 3000 50  0000 C CNN
+F 2 "" H 7850 3150 50  0001 C CNN
+F 3 "" H 7850 3150 50  0001 C CNN
+	1    7850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B231F37
+P 7650 2250
+F 0 "#PWR?" H 7650 2100 50  0001 C CNN
+F 1 "VCC" H 7650 2400 50  0000 C CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3950 4550 3100
+Wire Wire Line
+	4050 3300 4150 3300
+Wire Wire Line
+	4150 3300 4150 3400
+Wire Wire Line
+	4150 3400 4050 3400
+Wire Wire Line
+	4550 3100 4050 3100
+Wire Wire Line
+	8600 4100 8350 4100
+Wire Wire Line
+	8350 4100 8350 3800
+Wire Wire Line
+	8200 4200 8600 4200
+Wire Wire Line
+	8600 4300 8200 4300
+Wire Wire Line
+	8450 4400 8450 4750
+Wire Wire Line
+	8450 4400 8600 4400
+Wire Wire Line
+	8600 4600 8450 4600
+Connection ~ 8450 4600
+Wire Wire Line
+	8600 4500 8150 4500
+Wire Wire Line
+	8150 4500 8150 4800
+Wire Wire Line
+	8150 5550 8150 5400
+Wire Wire Line
+	6100 5000 6100 4850
+Wire Wire Line
+	7100 2750 6900 2750
+Wire Wire Line
+	7100 3050 6900 3050
+Wire Wire Line
+	5100 2750 5300 2750
+Wire Wire Line
+	5100 3050 5300 3050
+Wire Wire Line
+	7450 3550 7450 3600
+Wire Wire Line
+	7450 4050 7450 3900
+Wire Wire Line
+	7450 3050 7450 3250
+Wire Wire Line
+	7450 2750 7450 2450
+Wire Wire Line
+	7850 2450 7850 2750
+Wire Wire Line
+	7850 3150 7850 3050
+Wire Wire Line
+	6900 3550 7450 3550
+Wire Wire Line
+	7450 3250 6900 3250
+Wire Wire Line
+	7450 2450 7850 2450
+Wire Wire Line
+	6100 2450 6100 2250
+Wire Wire Line
+	7650 2250 7650 2450
+Connection ~ 7650 2450
+NoConn ~ 6900 3950
+NoConn ~ 6900 4350
+Text GLabel 7000 3750 2    60   Input ~ 0
+T1OUT
+Text GLabel 7000 4150 2    60   Input ~ 0
+R1IN
+Wire Wire Line
+	7000 3750 6900 3750
+Wire Wire Line
+	7000 4150 6900 4150
+NoConn ~ 5300 3950
+NoConn ~ 5300 4350
+Text GLabel 5200 4150 0    60   Input ~ 0
+R1OUT
+Text GLabel 5200 3750 0    60   Input ~ 0
+T1IN
+Wire Wire Line
+	5200 4150 5300 4150
+Wire Wire Line
+	5200 3750 5300 3750
+Text GLabel 4200 2800 2    60   Input ~ 0
+T1OUT
+Text GLabel 4200 2900 2    60   Input ~ 0
+R1IN
+Wire Wire Line
+	4200 2800 4050 2800
+Wire Wire Line
+	4200 2900 4050 2900
+$Comp
+L GND #PWR?
+U 1 1 5B2328FB
+P 6100 5000
+F 0 "#PWR?" H 6100 4750 50  0001 C CNN
+F 1 "GND" H 6100 4850 50  0000 C CNN
+F 2 "" H 6100 5000 50  0001 C CNN
+F 3 "" H 6100 5000 50  0001 C CNN
+	1    6100 5000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
