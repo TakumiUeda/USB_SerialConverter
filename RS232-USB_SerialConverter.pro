@@ -1,4 +1,4 @@
-update=2018年06月15日 金曜日 07:49:52
+update=2018年06月15日 金曜日 08:44:37
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Volumes/NO NAME/Kicad_Lib/Mylib
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
